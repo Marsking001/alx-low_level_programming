@@ -3,14 +3,10 @@
 
 /**
  * 1-isdigit.c - checks for a digit ( 0 throught 9).
- * @c: c - Variable
- * Return: Always 0.
+ * @c: int to be checked
+ * Return: 1 if c is a digit, 0 otherwise
  */
-int 1-isdigit.c(int c)
+int _isdigit(int c)
 {
-	if (c >= 48 && c <= 57)
-	{
-		return (1);
-	}
-	return (0);
+	return (c >= '0' && c <= '9');
 }
